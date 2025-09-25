@@ -1,0 +1,22 @@
+{
+  "apiUrl": "https://6909cd481a446bb9cc201269.mockapi.io/:endpoint",  
+  "db": {
+    "uri": "mongodb+srv://<username>:<password>@cluster0.mongodb.net/myDatabase?retryWrites=true&w=majority",
+    "name": "myDatabase"
+  },
+  "auth": {
+    "jwtSecret": "your_jwt_secret_key",
+    "expiresIn": "1h"
+  },
+  "server": {
+    "port": 5000,
+    "host": "localhost"
+  },
+  "heroku": {
+    "appName": "your-heroku-app-name",
+    "deployBranch": "main"
+  }
+}
+
+
+
